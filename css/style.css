@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-.logo img { width: 100px;}
+.bg-white { background-color: white;}
+
+.logo img { width: 75px;}
 
 ul {position: relative;}
 
@@ -23,4 +25,10 @@ ul li a:hover { color:rgb(51, 103, 214)!important;
     border-bottom: 4px solid rgb(51, 103, 214)!important;
     
 }
+.domande { width: 980px;
+           margin:auto;
+           margin-top:200px;}
+
+.domande p {margin-top:30px;}
+.domande p a {text-decoration: none;}
 
