@@ -1,0 +1,26 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img { width: 100px;}
+
+ul {position: relative;}
+
+ul li a:hover { color:rgb(51, 103, 214)!important;
+                        }
+
+                   
+
+.nav-bar ul li:hover ::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    height: 7px;
+    width: 90px;
+    border-bottom: 4px solid rgb(51, 103, 214)!important;
+    
+}
+
